@@ -1,0 +1,44 @@
+/* Style WPForms M-Pesa Settings Page */
+.wpforms-mpesa-settings input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Ensure select fields match input fields */
+.wpforms-mpesa-settings select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+/* Improve labels */
+.wpforms-mpesa-settings label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style submit button */
+.wpforms-mpesa-settings input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background 0.3s ease-in-out;
+}
+
+.wpforms-mpesa-settings input[type="submit"]:hover {
+    background-color: #005177;
+}
