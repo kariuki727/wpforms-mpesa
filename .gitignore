@@ -17,6 +17,33 @@
 /wp-*.php
 /xmlrpc.php
 
+# Ignore WordPress core files
+/wp-config.php
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/advanced-cache.php
+
+# Ignore IDE/editor files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+*.vscode
+*.idea
+
+# Ignore vendor dependencies if using Composer
+/vendor/
+/node_modules/
+/composer.lock
+/package-lock.json
+
+# Ignore environment-specific files
+.env
+.env.local
+
+
 # Configuration
 wp-config.php
 
